@@ -2,10 +2,10 @@
 https://github.com/Steavy/qa-training_chaos-mesh
 
 ## installation
-install choco for windows (https://chocolatey.org/install)
-install helm (choco install kubernetes-helm)
-install minikube (https://minikube.sigs.k8s.io/docs/start)
-install chaos mesh (https://chaos-mesh.org/docs/production-installation-using-helm)
+--install choco for windows (https://chocolatey.org/install)
+--install helm (choco install kubernetes-helm)
+--install minikube (https://minikube.sigs.k8s.io/docs/start)
+--install chaos mesh (https://chaos-mesh.org/docs/production-installation-using-helm)
 
 ## run in mac os
 minikube start
