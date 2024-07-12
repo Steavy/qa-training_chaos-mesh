@@ -11,7 +11,8 @@ install chaos mesh https://chaos-mesh.org/docs/simulate-pod-chaos-on-kubernetes/
 minikube start
 
 ### to enable the dashboard
-helm upgrade chaos-mesh chaos-mesh/chaos-mesh --namespace=chaos-testing --version v0.5.4 --set dashboard.securityMode=false
+helm upgrade chaos-mesh chaos-mesh/chaos-mesh -n=chaos-mesh --version 2.6.3 --set dashboard.securityMode=false
+
 kubectl port-forward -n chaos-mesh svc/chaos-dashboard 2333:2333
 
 dashboard is dus hier te zien: http://127.0.0.1:2333/
