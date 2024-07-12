@@ -13,6 +13,15 @@ install chaos mesh (https://chaos-mesh.org/docs/production-installation-using-he
 ## run in mac os
 minikube start
 
+## run first experiment
+git clone this repo
+
+cmd into this git repo path
+
+kubectl apply -f network-delay.yaml
+
+kubectl describe networkchaos network-delay
+
 ### to enable the dashboard
 helm upgrade chaos-mesh chaos-mesh/chaos-mesh -n=chaos-mesh --version 2.6.3 --set dashboard.securityMode=false
 
