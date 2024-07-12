@@ -1,11 +1,11 @@
-# Chaos Testing with Mesh and Cubernetes
-https://github.com/dhomi/qa-training_chaos-mesh
+# Chaos Testing with Mesh and Kubernetes on Windows
+https://github.com/Steavy/qa-training_chaos-mesh
 
 ## installation
-install docker
-install kubernetes (voor mac os de minicube op https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Fx86-64%2Fstable%2Fhomebrew)
-install helm https://helm.sh/docs/intro/install/
-install chaos mesh https://chaos-mesh.org/docs/simulate-pod-chaos-on-kubernetes/
+install choco for windows (https://chocolatey.org/install)
+install helm (choco install kubernetes-helm)
+install minikube (https://minikube.sigs.k8s.io/docs/start)
+install chaos mesh (https://chaos-mesh.org/docs/production-installation-using-helm)
 
 ## run in mac os
 minikube start
