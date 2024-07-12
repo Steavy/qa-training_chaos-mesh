@@ -8,10 +8,9 @@ install helm (choco install kubernetes-helm)
 
 install minikube (https://minikube.sigs.k8s.io/docs/start)
 
-install chaos mesh (https://chaos-mesh.org/docs/production-installation-using-helm)
-
-## run in mac os
 minikube start
+
+install chaos mesh (https://chaos-mesh.org/docs/production-installation-using-helm)
 
 ## run first experiment
 git clone this repo
