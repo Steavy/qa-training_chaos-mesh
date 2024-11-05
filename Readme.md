@@ -6,7 +6,7 @@ install choco for windows (https://chocolatey.org/install)
 
 install helm (choco install kubernetes-helm)
 
-(Mocht je geen kubernetes onder Docker voor Windows hebben draaien voer dan onderstaande 2 stappen eerst uit)
+(Mocht je geen kubernetes https://birthday.play-with-docker.com/kubernetes-docker-desktop/ onder Docker voor Windows hebben draaien voer dan onderstaande 2 stappen eerst uit)
 
 --install minikube (https://minikube.sigs.k8s.io/docs/start)
 
