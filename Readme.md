@@ -6,9 +6,9 @@ install choco for windows (https://chocolatey.org/install)
 
 install helm (choco install kubernetes-helm)
 
-install minikube (https://minikube.sigs.k8s.io/docs/start)
-
-minikube start
+(Mocht je geen kubernetes onder Docker voor Windows hebben draaien voer dan onderstaande 2 stappen -- eerst uit)
+--install minikube (https://minikube.sigs.k8s.io/docs/start)
+--minikube start
 
 install chaos mesh (https://chaos-mesh.org/docs/production-installation-using-helm)
 
