@@ -1,15 +1,18 @@
 # Chaos Testing with Mesh and Kubernetes on Windows
 https://github.com/Steavy/qa-training_chaos-mesh
 
-## installation
+## installation 1
 install choco for windows (https://chocolatey.org/install)
 
 install helm (choco install kubernetes-helm)
 
-(Mocht je geen kubernetes onder Docker voor Windows hebben draaien voer dan onderstaande 2 stappen -- eerst uit)
+(Mocht je geen kubernetes onder Docker voor Windows hebben draaien voer dan onderstaande 2 stappen eerst uit)
+
 --install minikube (https://minikube.sigs.k8s.io/docs/start)
+
 --minikube start
 
+## installation 2
 install chaos mesh (https://chaos-mesh.org/docs/production-installation-using-helm)
 
 ## run first experiment
